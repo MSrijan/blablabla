@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='min-h-full bg-black p-3 text-white'>
-      <p className='font-bold text-xl my-3 mb-8'>Bla Bla</p>
+      <Link to ="/"><p className='font-bold text-xl my-3 mb-8'>Bla Bla</p></Link>
       <div className='flex gap-3 text-xl flex-col justify-between'>
         <Link to="/" className="flex items-center gap-5 nav-link">
           <GoHome className='size-8' />
