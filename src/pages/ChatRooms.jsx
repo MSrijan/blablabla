@@ -13,7 +13,7 @@ const ChatRooms = () => {
       <div className="flex-1 p-4">
         <Routes>
           <Route path="/" element={
-            <div className='flex w-100 justify-center items-center h-[96vh] text-6xl'>Start the beginning of a legendary conversation.</div>
+            <div className='flex w-100 justify-center items-center h-[96vh] text-6xl'>The beginning of a legendary conversation.</div>
           } />
           <Route path=":groupId" element={<GroupChat />} />
         </Routes>
